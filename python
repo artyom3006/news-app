@@ -1,0 +1,3 @@
+Migrations for 'articles':
+  articles\migrations\0002_comment.py
+    - Create model Comment
