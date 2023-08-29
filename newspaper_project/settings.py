@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'users', 
     'pages',
     'articles',
-    'django-crispy-forms', 
+    "crispy_forms",
+    "crispy_bootstrap4",
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,7 @@ EMAIL_HOST_USER = 'postmaster@sandbox00debc22017446f9a5a4761c35c4935d.mailgun.or
 EMAIL_HOST_PASSWORD = '08e94e0e4c67e04453b747aed1e23447-451410ff-2ec5e2b0'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
