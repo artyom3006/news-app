@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'users', 
     'pages',
     'articles',
-    'crispy_forms',
+    'django-crispy-forms', 
 ]
 
 MIDDLEWARE = [
